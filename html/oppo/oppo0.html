@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="" href="../css/bootstrap5.min.css">
+    <link rel="stylesheet" type="" href="../../css/bootstrap5.min.css">
 
-    <script src="../js/jquery-3.6.4.min.js"></script>
+    <script src="../../js/jquery-3.6.4.min.js"></script>
+    <script src="../../js/masonri.min.js"></script>
 
-    <script src="../js/bootstrap5.min.js"></script>
+    <script src="../../js/bootstrap5.min.js"></script>
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" type="" href="../css/style.css">
-    <link rel="stylesheet" type="" href="../css/giohang.css">
+    <link rel="stylesheet" type="" href="../../css/style.css">
 
     <link rel="icon" type="image/x-icon" href="https://drive.google.com/uc?export=view&id=1HgMJ5_s9euRXS-MX4fMtt9WjyQWMAPCB">
-    <title>Giỏ hàng</title>
+    <title>Chi tiết sản phẩm Oppo</title>
 
     <script>
         $(document).ready(function(){
@@ -28,25 +29,12 @@
             });
         });
     </script>
-
-    <script src="../js/giohang.js"></script>
 </head>
 <body>
     <div id="wrapper">
-        <div class="toast__increasecart toast" role="alert" aria-live="assertive" aria-atomic="true" style="position: fixed; top: 65px; right: 32px; z-index: 9999;">
-            <div class="toast-header d-flex justify-content-between">
-                <i class="fa-sharp fa-solid fa-circle-check fa-bounce text-success"></i>
-                <strong class="mr-auto text-success">Đặt hàng thành công</strong>
-                <small class="text-muted">just now</small>
-            </div>
-            <div class="toast-body">
-                Đến giỏ hàng để kiểm tra!!
-            </div>
-        </div>
-
         <header class="container-fluid p-3">
             <div class="row">
-                <a href="../index.html" class="header__logo col-lg-3 d-flex justify-content-center">
+                <a href="../../index.html" class="header__logo col-lg-3 d-flex justify-content-center">
                     <img src="https://drive.google.com/uc?export=view&id=1NlE5IQq064nBUXG7iUL3CPyqULeHTvc0" alt="" class="logo__img"> 
                 </a>
                 <div class="header__search d-flex align-items-center col-lg-5">
@@ -58,13 +46,13 @@
         
                 <div class="header__userinfo col-lg-4 d-flex align-items-center justify-content-around">
                     <button type="" class="userinfo__bill btn btn-light">
-                        <a href="./kiemtradonhang.html" class="text-dark text-decoration-none">
+                        <a href="../kiemtradonhang.html" class="text-dark text-decoration-none">
                             <strong>Kiểm tra đơn hàng</strong>
                         </a>
                     </button>
         
                     <button type="" class="userinfo__cart btn btn-light p-2">
-                        <a href="#" class="text-dark">
+                        <a href="../giohang.html" class="text-dark">
                             <p class="cart__amount bg-info">
                             </p>
                             <i class="cart__icon fa-solid fa-cart-shopping"></i>
@@ -72,7 +60,7 @@
                     </button>
         
                     <button type="" class="userinfo__signin btn btn-outline-secondary">
-                        <a href="./signin.html" class="signin__link text-dark text-decoration-none">
+                        <a href="../signin.html" class="signin__link text-dark text-decoration-none">
                             <i class="signin__icon far fa-user"></i>
                             <span><strong>Tài khoản</strong></span>
                         </a>
@@ -85,51 +73,111 @@
             <div class="container-fluid collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                 <ul class="nav__list navbar-nav gap-lg-5">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Trang chủ</a>
+                        <a class="nav-link active" aria-current="page" href="../../index.html">Trang chủ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./iphone.html">Iphone</a>
+                        <a class="nav-link active" href="../iphone.html">Iphone</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./samsung.html">Samsung</a>
+                        <a class="nav-link active" href="../samsung.html">Samsung</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./googlepixel.html">Google Pixel</a>
+                        <a class="nav-link active" href="../googlepixel.html">Google Pixel</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./oppo.html">Oppo</a>
+                        <a class="nav-link active" href="../oppo.html">Oppo</a>
                     </li>
                     <li class="navbar__dropdown nav-item dropdown" id="dropdown">
                         <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="#dropdown" aria-expanded="false">
                             Phụ kiện
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="./sacduphong.html">Sạc dự phòng</a></li>
-                            <li><a class="dropdown-item" href="./saccap.html">Sạc cáp</a></li>
-                            <li><a class="dropdown-item" href="./oplungdienthoai.html">Ốp lưng điện thoại</a></li>
+                            <li><a class="dropdown-item" href="../sacduphong.html">Sạc dự phòng</a></li>
+                            <li><a class="dropdown-item" href="../saccap.html">Sạc cáp</a></li>
+                            <li><a class="dropdown-item" href="../oplungdienthoai.html">Ốp lưng điện thoại</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <main>
-            <section class="container p-5">
-                <div class="cart-row">
-                    <span class="cart-item cart-header cart-column">Sản Phẩm</span>
-                    <span class="cart-price cart-header cart-column">Giá</span>
-                    <span class="cart-quantity cart-header cart-column">Số
-                        Lượng</span>
-                </div>
+        <div class="store__panel container-fluid bg-black text-sm-center p-5">
+            <h1 class="store__panel__heading display-1"><strong>MOBILEWORLD</strong></h1>
+        </div>
 
-                <div class="cart__item cart-items"></div>
-                <div class="cart-total">
-                    <strong class="cart-total-title">Tổng Cộng:</strong>
-                    <span class="cart__total__price cart-total-price">0 VNĐ</span>
+        <main>
+            <section class="container pt-5 pb-5">
+                <div class="row" data-masonry='{" percentPosition": true }'>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img class="bd-placeholder-img card-img-top p-md-3" src="https://drive.google.com/uc?export=view&id=1y0kZKdu6iHQqB85xiCbUqElC084g9wAl" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Oppo Find X5 Pro 5G</h5>
+                                <p class="card-text">
+                                    <i class="text-warning fa-solid fa-star"></i>
+                                    <i class="text-warning fa-solid fa-star"></i>
+                                    <i class="text-warning fa-solid fa-star"></i>
+                                    <i class="text-warning fa-solid fa-star"></i>
+                                    <i class="text-warning fa-solid fa-star"></i>
+                                    <small class="text-muted">20 Đánh giá</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card bg-danger text-white text-center p-3">
+                            <h4 class="card-text">Giá sốc online</h4>
+                            <p class="text-warning card-text">24.990.000đ <span class="text-light text-decoration-line-through"> 32.990.000đ</span></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title text-primary text-center"><strong>Thông tin sản phẩm</strong></h4>
+
+                                    <p class="card-text"><strong>Chip: </strong></span>MediaTek Dimensity 8100 Max 8 nhân</p>
+
+                                    <p class="card-text"><strong>RAM: </strong></span>12 GB</p>
+
+                                    <p class="card-text"><strong>Dung lượng: </strong></span>256 GB</p>
+
+                                    <p class="card-text"><strong>Camera sau: </strong></span>Chính 50 MP & Phụ 50 MP, 13 MP</p>
+
+                                    <p class="card-text"><strong>Camera trước: </strong></span>32 MP</p>
+
+                                    <p class="card-text"><strong>Pin: </strong></span>5000 mAh, 80 W</p>
+
+                                    <p class="card-text"><strong>Màn hình: </strong></span>AMOLED 6.7" Quad HD+ (2K+)</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text"><span class="text-danger"><strong>1. </strong></span>Chỉ áp dụng giao tận nơi.</p>
+                                <p class="card-text"><span class="text-danger"><strong>2. </strong></span>Thời gian nhận hàng: 1 ngày sau khi đặt</p>
+                                <p class="card-text"><span class="text-danger"><strong>3. </strong></span>Không áp dụng chung với khuyến mãi khác.</p>
+                                <p class="card-text"><span class="text-danger"><strong>4. </strong></span>Mỗi khách hàng (1 SĐT) chỉ được mua 1 sản phẩm</p>
+                                <p class="card-text"><span class="text-danger"><strong>5. </strong></span>Áp dụng góp Online qua thẻ tín dụng</p>
+                                <p class="card-text"><span class="text-danger"><strong>6. </strong></span>Bắt buộc khui hộp và kích hoạt khi nhận máy</p>
+                                <p class="card-text"><span class="text-danger"><strong>7. </strong></span>Không áp dụng góp nhà tài chính</p>
+                                <p class="card-text"><span class="text-danger"><strong>8. </strong></span>Số lượng có hạn, áp dụng tùy tỉnh thành</p>
+                                <p class="card-text"><span class="text-danger"><strong>9. </strong></span>Hư gì đổi nấy trong 15 ngày nếu lỗi do nhà sản xuất</p>
+                            </div>
+                            <div class="card-footer text-center d-flex">
+                                <a
+                                    class="flex-grow-1 btn btn-lg btn-primary p-2"
+                                    href="../kiemtradonhang.html"
+                                >
+                                    Mua hàng ngay
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
-
 
         <div class="container-fluid bg-black text-white">
             <div class="container p-5">
@@ -204,3 +252,4 @@
     </div>
 </body>
 </html>
+
