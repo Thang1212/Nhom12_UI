@@ -33,8 +33,9 @@ $(document).ready(function () {
     let MoneyFormat = new Intl.NumberFormat().format;
 
     let shoppingCarts = getShoppingCarts();
-    if (shoppingCarts.length) 
-        $('.cart__amount').text(shoppingCarts.reduce((acc, product) => acc += product.amount, 0));
+    
+    // if (shoppingCarts.length) 
+    //     $('.cart__amount').text(shoppingCarts.reduce((acc, product) => acc += product.amount, 0));
 
     let totalMoney = getTotalMoney();
     jQuery.getJSON('../js/db.json').done(function (db) {
